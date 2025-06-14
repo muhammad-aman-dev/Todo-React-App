@@ -1,12 +1,56 @@
-# React + Vite
+# 📝 React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and functional Todo List application built with **React**, **Vite**, and **Tailwind CSS**. It allows users to manage daily tasks with features like adding, editing, deleting, marking as complete, and filtering tasks. All data is saved in **LocalStorage** to persist across sessions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ Add tasks  
+- 📝 Edit existing tasks  
+- ✅ Mark tasks as completed  
+- ❌ Delete tasks  
+- 👁️ Show/Hide completed tasks  
+- 💾 Persistent storage with LocalStorage  
+- 📊 Task counter showing total tasks  
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [UUID](https://www.npmjs.com/package/uuid)
+
+## 📦 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 📂 Folder Structure
+
+```
+.
+├── components/
+│   ├── navbar.jsx
+│   └── footer.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## 📸 Screenshot
+
+![App Screenshot](screenshot.png)
+
+> Feel free to improve and customize this app to your liking!
