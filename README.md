@@ -49,8 +49,4 @@ A simple and functional Todo List application built with **React**, **Vite**, an
 └── main.jsx
 ```
 
-## 📸 Screenshot
 
-![App Screenshot](screenshot.png)
-
-> Feel free to improve and customize this app to your liking!
